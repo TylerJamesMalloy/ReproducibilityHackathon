@@ -1,0 +1,70 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "human-ai-parallel-corpus",
+  "dataset_size": 191823221,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/browndw/human-ai-parallel-corpus@b514ff64988d9e322fd81c5d70d69a38e78491f5/text_data/hape-text_gpt-4o-2024-08-06.parquet": {
+      "num_bytes": 17609251,
+      "checksum": null
+    },
+    "hf://datasets/browndw/human-ai-parallel-corpus@b514ff64988d9e322fd81c5d70d69a38e78491f5/text_data/hape-text_gpt-4o-mini-2024-07-18.parquet": {
+      "num_bytes": 18901377,
+      "checksum": null
+    },
+    "hf://datasets/browndw/human-ai-parallel-corpus@b514ff64988d9e322fd81c5d70d69a38e78491f5/text_data/hape-text_human-chunk-1.parquet": {
+      "num_bytes": 14282733,
+      "checksum": null
+    },
+    "hf://datasets/browndw/human-ai-parallel-corpus@b514ff64988d9e322fd81c5d70d69a38e78491f5/text_data/hape-text_human-chunk-2.parquet": {
+      "num_bytes": 14131368,
+      "checksum": null
+    },
+    "hf://datasets/browndw/human-ai-parallel-corpus@b514ff64988d9e322fd81c5d70d69a38e78491f5/text_data/hape-text_llama-3-70B-Instruct.parquet": {
+      "num_bytes": 12572158,
+      "checksum": null
+    },
+    "hf://datasets/browndw/human-ai-parallel-corpus@b514ff64988d9e322fd81c5d70d69a38e78491f5/text_data/hape-text_llama-3-70B.parquet": {
+      "num_bytes": 13028931,
+      "checksum": null
+    },
+    "hf://datasets/browndw/human-ai-parallel-corpus@b514ff64988d9e322fd81c5d70d69a38e78491f5/text_data/hape-text_llama-3-8B-Instruct.parquet": {
+      "num_bytes": 10966514,
+      "checksum": null
+    },
+    "hf://datasets/browndw/human-ai-parallel-corpus@b514ff64988d9e322fd81c5d70d69a38e78491f5/text_data/hape-text_llama-3-8B.parquet": {
+      "num_bytes": 12594347,
+      "checksum": null
+    }
+  },
+  "download_size": 114086679,
+  "features": {
+    "doc_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 305909900,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 191823221,
+      "num_examples": 66320,
+      "dataset_name": "human-ai-parallel-corpus"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
